@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Fullscreen API Attack</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/facebox.css">
+</head>
+<body>
+
+  <a class="spoofLink" href="https://www.bankofamerica.com">Bank Of America</a>
+
+  <div id="spoofHeader">
+    <div id="spoofMenu"></div>
+    <div id="spoofBrowser"></div>
+  </div>
+
+  <div id="spoofSite">
+    <img id="changeimg" src="./img/boa.png">
+  </div>
+
+  <div id="phished" style="display: none;">
+    <p>
+      <b>Bạn đã bị nhiễm virut H5N1!</b><br><br>
+      <img id="quy" src="./img/quy.jpg"><br>
+      <p style="text-align: center;">Trần Phú Quý</p>
+      <p style="text-align: center;">15110298</p>
+      <b style="color: red">Đã mã hóa dữ liệu cá nhân của bạn thành công.</b><p> bấm ESC để thoát nhé :P</p>
+    </p>
+  </div>
+
+  <script src="js/libs/jquery-1.7.2.js"></script>
+  <script src="js/libs/jquery-ui-1.8.18.custom.min.js"></script>
+  <script src="js/libs/facebox.js"></script>
+  <script src="js/libs/browser-detect.js"></script>
+  <script src="js/libs/fullscreen-api-shim.js"></script>
+
+  <script src="js/script.js"></script>
+
+
+</body>
+</html>
